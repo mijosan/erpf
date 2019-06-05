@@ -1,0 +1,368 @@
+@charset "UTF-8";
+
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR"rel="stylesheet" >
+
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+/*상단*/
+.head {
+    height: 110px;
+    width: 100%;
+    will-change: 100%;
+   
+    position: fixed;
+    margin-bottom: 10px;
+    
+    
+}
+
+
+.logo {
+    float: left;
+    width: 500px;
+}
+
+.logo img {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.name {
+    width: 80px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 5px;
+    background: #D8D8D8;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.videonotice {
+    
+    padding-top: 246px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2em;
+
+}
+
+.vcontainer {
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+.contents1 {
+    height: 600px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 90px;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1000;
+}
+
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.foot {
+    padding-top: 250px;
+    color: white;
+    text-align: center;
+}
+
+
+/*본문*/
+   .T1 {
+            position: fixed;
+            top: 10px;
+            display: inline-block;
+        }
+.wrap {
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px;
+    position: absolute;
+    text-align: center;
+    z-index: -2;
+	top:100px;
+}
+
+.conten {
+    float: left;
+    width: 850px;
+    margin: 10px;
+    display: inline-block;
+    /*background:#D8D8D8;*/
+}
+
+
+/*div 반만 차지*/
+.half {
+
+    width: 100%;
+    display: flex;
+    flex-shrink: 0;
+    position: relative;
+
+}
+
+/*article*/
+.story p {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+
+.story h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    padding-left: 20px;
+    border-left: solid 20px #0559ba;
+    text-align: left;
+    font-size: 36px;
+    
+    font-weight: normal;
+}
+
+.story img {
+    max-width: 100%;
+    margin: 10px 30px;
+    height: auto;
+}
+
+.frame {
+    width: 100%;
+
+    margin: 10px 30px;
+    height: auto;
+}
+
+/*outline에서 사용*/
+.box1 {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background: #0559ba;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    display: inline-block;
+    margin: 10px 20px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+
+/*package*/
+.box2 {
+    width: 240px;
+    height: 100px;
+    border-radius: 10px;
+    background: #D8D8D8;
+    font-size: 20px;
+
+}
+
+
+/*review*/
+.box3 {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background: #D8D8D8;
+    text-align: center;
+    font-size: 30px;
+
+    display: inline-block;
+    margin: 10px 20px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+/**/
+
+
+.box4 {
+
+    float: left;
+    width: 450px;
+    height: 130px;
+    background: #e3e3e3;
+    margin: 20px 25px;
+    color: #000000;
+    padding: 15px;
+    display: inline-flex;
+    flex-shrink: 0;
+
+
+}
+
+/*사이드 타이틀:as 안에*/
+.sbox {
+	
+    width: 150px;
+    height: 135px;
+    background: #169dff;
+    align-content: center;
+    flex-shrink: 0;
+
+}
+
+.sbox img {
+	
+    width: 80px;
+    height: 80px;
+    padding-right: 10px;
+    margin: 25px;
+    align-content: center;
+    flex-basis: 0;
+    
+}
+
+.sboxside {
+
+    width: 340px;
+    height: 120px;
+    flex-shrink: 0;
+    align-content:center;
+
+}
+
+
+.sboxside h2{
+	text-align: center;
+	font-size: 30px;
+	margin-left: 5px;
+	
+}
+
+
+/*사이드설명*/
+
+.as {
+
+    float: left;
+    width: 250px;
+    background: #e3e3e3;
+    margin-top: 50px;
+    margin-left: 60px;
+    padding-left: 20px;
+    margin-right: 0;
+    color: #000000;
+    padding-top: 10px;
+    text-align: left;
+
+}
+
+/*사이드 타이틀:as 안에*/
+.ast {
+    width: 100%;
+    background: #169dff;
+    height: auto;
+    text-align: left;
+    padding-bottom: 10px;
+
+
+}
+
+.as h1,
+p {
+    color: #000000;
+    margin-left: 15px;
+    margin-bottom: auto;
+}
+
+/*review icon*/
+.cir1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2292D8;
+
+}
+
+
+.cir2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #2292D8;
+    display: inline-block;
+    margin: 30px;
+
+}
+.cir2 img{
+    width: 130px;
+    height: 130px;
+    align-content: center;
+    text-align: center,bottom;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    
+    
+
+}
+
+.content cardas {
+    flex-basis: 330px;
+    margin-top: 30px;
+    margin-left:20px;
+    align-content: center;
+    text-align: left;
+}
+
+/*purpose*/
+.card {
+    width: 230px;
+    height: 250px;
+    margin: 15px;
+    background: #1970d5;
+    border-radius: 10px;
+    /*    display: flex;
+    flex-direction: column;*/
+    display: inline-block;
+    flex-shrink: 0;
+    color: #ffffff;
+    align-content: center;
+    text-align: bottom,center;
+    
+}
+
+.card img {
+    margin: 20px 10px;
+    width: 140px;
+    height: 160px;
+    display: inline;
+}
+
+
+/*purpose side 설명*/
+.cardas {
+
+    float: left;
+    width: 330px;
+    height: auto;
+
+    margin: 30px;
+    border: 10px;
+    color: #000000;
+    font-size: 15px;
+
+}
+

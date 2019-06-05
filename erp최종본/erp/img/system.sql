@@ -1,0 +1,1 @@
+select emp_dept, emp_num, emp_name from tblemployee where emp_dept like '' or emp_name like '%Á¤%'

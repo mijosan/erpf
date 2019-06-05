@@ -1,0 +1,142 @@
+           
+            /*로그인 부분 css*/
+            .login {
+				margin-top: 7%;
+				margin-left: 35%;
+				width: 33%;
+				height: 20%;
+			}			
+			.erpLogo {
+				margin-left: 20%;
+			}			
+			.idDiv {
+				border: 1px solid rgb(46, 117, 182);
+				height: 30%;
+				margin-bottom: 0.5px;
+			}			
+			.pwDiv {
+				margin-top: 0px;
+				border: 1px solid rgb(46, 117, 182);
+				height: 30%;
+			}			
+			.loginbox{
+				width: 100%;
+				height: 100%;
+			}			
+			.loginBtn {
+				width: 100%;
+				height: 38%;
+				background-color: rgb(46, 117, 182);
+				color: white;
+				font-size: 20px
+			}
+            /*로그인 부분 css*/
+			/*top 부분 css*/
+			    .customer-center img{
+			        width:35px;
+			        height:30px;
+			        margin: 5px;
+			    }    
+			    .top1{        
+			        min-width: 100%;
+			        height: 40px;
+			        margin: 0;
+			    }
+			    .menuimg img{
+			        width:20px;
+			        height:20px;
+			        margin: 5px; 
+			    }
+			    .logo img{
+			        width:35px;
+			        height:30px;
+			        margin: 5px; 
+			    }
+			    .customer-center button{
+			        background-color: white;
+			        border: none;
+			    }
+			    .search{
+			        border: 1px solid #dee3eb;
+			        border-radius: 0.5em;
+			        width: 340px;
+			        height: 30px;
+			        margin-left: 10px;
+			    }
+			    .search img{
+			        width: 15px;
+			        height: 15px;
+			        margin: 0;
+			    }
+			    .search button{
+			        border: none;
+			        width: 15px;
+			        height: 15px;
+			        margin-top: 8px;
+			        background-image: url(img/search.png);
+			        background-size: cover;
+			        background-color: white;
+			    }
+			    .searchBox{
+			        border: none;
+			        width: 90%;
+			        height: 20px;
+			        margin-left: 3px;
+			    }
+			    
+			/*메뉴부분 css 시작*/			
+            #topMenu {
+                min-width: 1300px;
+                height: 50px;
+                font-size: 12px;
+            }
+            
+            .topMenuLi {
+                margin-left: 5px;
+                margin-right: 50px;
+                cursor: pointer;
+                color:black;
+            }
+            .topMenuLi a{
+                  text-decoration:none;
+                  color:black;
+            }           
+            #topMenu ul { /* 메인 메뉴 안의 ul을 설정함: 상위메뉴의 ul+하위 메뉴의 ul */ 
+                list-style-type: none;
+                margin: 0px;
+                padding: 0px;
+            }            
+            #topMenu ul li { /* 메인 메뉴 안에 ul 태그 안에 있는 li 태그의 스타일 적용(상위/하위메뉴 모두) */ 
+                float: left;
+                line-height: 30px;
+                text-align: center;
+                /*position: relative;*/
+            }            
+            .subMenu li{
+                margin-left: 10px;
+                margin-right: 20px;
+                color:white;
+            }
+            .subMenu li a{
+            	color:white;
+            }
+            .subMenu li a:visited{
+            	color:white;
+            }            
+            .subMenu { /* 하위 메뉴 스타일 설정 */
+                position: absolute;
+                height: 0px;   /*하위 메뉴 숨기기*/
+                overflow: hidden;   /*하위 메뉴 숨기기*/
+                width: 500px; /* 가로 드랍다운 메뉴의 넓이 */
+                transition: height .2s;                
+            }            
+            .topMenuLi:hover .submenu { /* 상위 메뉴에 마우스 모버한 경우 그 안의 하위 메뉴 스타일 설정 */ 
+                height: 30px; /* 높이를 32px로 설정 */
+                color: white;
+                font-weight: normal;
+            }
+            a{
+            	text-decoration:none;
+            }
+            /*메뉴부분 css 끝*/
+            

@@ -1,0 +1,30 @@
+            .login{
+            	margin-top:7%;
+                margin-left:35%;
+                width:33%;
+                height:20%; 
+            }
+            .erpLogo{
+            	margin-left:20%;
+            }
+            .idDiv{
+                border:1px solid rgb(46, 117, 182);
+                height:30%;
+                margin-bottom:0.5px;
+            }
+            .pwDiv{
+                margin-top:0px;
+                border:1px solid rgb(46, 117, 182);
+                height:30%;
+            }
+            .box{
+                width:100%;
+                height:100%;
+            }
+            .loginBtn{
+                width:100%;
+                height:38%;
+                background-color:rgb(46, 117, 182);
+                color:white;
+                font-size:20px
+            }
